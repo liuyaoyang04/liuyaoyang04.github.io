@@ -3,17 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yaoyang Liu (刘耀阳) is a Ph.D. student at Peking University, supervised by Prof. Yinjun Wu, researching machine learning systems, information retrieval, RAG, and cloud computing.">
+  <meta name="description" content="刘耀阳（Liu Yaoyang，Yaoyang Liu）是北京大学计算机学院博士研究生，研究机器学习系统、信息检索、检索增强生成和云计算。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://liuyaoyang04.github.io/">
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Yaoyang Liu (刘耀阳) | Peking University">
-  <meta property="og:description" content="Ph.D. student at Peking University, supervised by Prof. Yinjun Wu, researching machine learning systems, information retrieval, RAG, and cloud computing.">
+  <meta property="og:title" content="刘耀阳（Yaoyang Liu）｜北京大学计算机学院">
+  <meta property="og:site_name" content="Yaoyang Liu">
+  <meta property="og:description" content="刘耀阳（Liu Yaoyang，Yaoyang Liu）是北京大学计算机学院博士研究生，研究机器学习系统、信息检索、检索增强生成和云计算。">
   <meta property="og:url" content="https://liuyaoyang04.github.io/">
   <meta property="og:image" content="https://liuyaoyang04.github.io/assets/avatar.jpeg">
   <meta name="twitter:card" content="summary">
-  <title>Yaoyang Liu (刘耀阳) | Peking University</title>
+  <title>刘耀阳（Yaoyang Liu）｜北京大学计算机学院</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Yaoyang Liu",
+    "alternateName": "刘耀阳",
+    "url": "https://liuyaoyang04.github.io/"
+  }
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -40,7 +51,8 @@
       },
       "sameAs": [
         "https://scholar.google.com/citations?user=s6sKkKwAAAAJ",
-        "https://orcid.org/0009-0001-1572-9713"
+        "https://orcid.org/0009-0001-1572-9713",
+        "https://github.com/liuyaoyang04"
       ]
     }
   }
@@ -80,7 +92,8 @@
     <main id="main">
       <section id="about">
         <p class="eyebrow" data-zh="简介">About</p>
-        <h2 data-zh="你好，我是刘耀阳。">Hi, I am Yaoyang.</h2>
+        <h2 data-zh="你好，我是刘耀阳。">Hi, I am Yaoyang Liu (刘耀阳).</h2>
+        <p lang="zh-CN">刘耀阳（Liu Yaoyang，Yaoyang Liu）是北京大学计算机学院博士研究生。</p>
         <div data-lang="en">
           <p>
             I’m currently a Ph.D. student at the <a href="https://cs.pku.edu.cn/" target="_blank" rel="noopener">School of Computer Science</a>,
@@ -230,7 +243,7 @@
       document.querySelectorAll("[data-lang]").forEach(element => element.hidden = element.dataset.lang !== language);
       toggle.textContent = isChinese ? "EN" : "中文";
       toggle.setAttribute("aria-label", isChinese ? "Switch to English" : "切换到中文");
-      document.title = isChinese ? "刘耀阳（Yaoyang Liu）｜北京大学" : "Yaoyang Liu (刘耀阳) | Peking University";
+      document.title = isChinese ? "刘耀阳（Yaoyang Liu）｜北京大学计算机学院" : "刘耀阳（Yaoyang Liu）｜Peking University Computer Science";
       try { localStorage.setItem("language", language); } catch {}
     }
 
