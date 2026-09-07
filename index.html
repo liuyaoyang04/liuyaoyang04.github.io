@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yaoyang Liu is a Ph.D. student at Peking University researching machine learning systems, information retrieval, retrieval-augmented generation, and cloud computing.">
+  <meta name="description" content="Yaoyang Liu is a Ph.D. student at Peking University researching algorithms for machine learning systems and vector retrieval.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://liuyaoyang04.github.io/">
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Yaoyang Liu | ML Systems Researcher">
+  <meta property="og:title" content="Yaoyang Liu | Algorithms for ML Systems Researcher">
   <meta property="og:site_name" content="Yaoyang Liu">
-  <meta property="og:description" content="Ph.D. student at Peking University researching machine learning systems, information retrieval, retrieval-augmented generation, and cloud computing.">
+  <meta property="og:description" content="Ph.D. student at Peking University researching algorithms for machine learning systems and vector retrieval.">
   <meta property="og:url" content="https://liuyaoyang04.github.io/">
   <meta property="og:image" content="https://liuyaoyang04.github.io/assets/avatar.jpeg">
   <meta name="twitter:card" content="summary">
-  <title>Yaoyang Liu | ML Systems Researcher</title>
+  <title>Yaoyang Liu | Algorithms for ML Systems Researcher</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <script type="application/ld+json">
@@ -30,14 +30,14 @@
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     "dateCreated": "2026-08-21",
-    "dateModified": "2026-08-21",
+    "dateModified": "2026-09-07",
     "mainEntity": {
       "@type": "Person",
       "name": "Yaoyang Liu",
       "alternateName": "刘耀阳",
       "url": "https://liuyaoyang04.github.io/",
       "image": "https://liuyaoyang04.github.io/assets/avatar.jpeg",
-      "description": "Ph.D. student at Peking University, supervised by Prof. Yinjun Wu, researching machine learning systems, information retrieval, RAG, and cloud computing.",
+      "description": "Ph.D. student at Peking University, supervised by Prof. Yinjun Wu, researching algorithms for machine learning systems and vector retrieval.",
       "email": "liuyaoyang26@stu.pku.edu.cn",
       "affiliation": {
         "@type": "CollegeOrUniversity",
@@ -103,8 +103,8 @@
             <a href="https://en.ruc.edu.cn/" target="_blank" rel="noopener">Renmin University of China</a> in 2025.
           </p>
           <p>
-            My research interests lie in machine learning systems, information retrieval, and cloud computing.
-            I am particularly interested in building efficient systems for large language models and retrieval-augmented generation.
+            My research focuses on algorithms for machine learning systems and vector retrieval.
+            I am interested in improving the efficiency of ML workloads and developing scalable vector and multi-vector retrieval methods.
           </p>
         </div>
         <div data-lang="zh" hidden>
@@ -113,7 +113,7 @@
             导师为<a href="https://wuyinjun-1993.github.io/" target="_blank" rel="noopener">吴垠鋆教授</a>。
             此前，我于 2025 年在<a href="http://info.ruc.edu.cn/index.htm" target="_blank" rel="noopener">中国人民大学信息学院</a>获得学士学位。
           </p>
-          <p>我的研究兴趣包括机器学习系统、信息检索和云计算，尤其关注大语言模型与检索增强生成系统的高效设计。</p>
+          <p>我的研究聚焦于面向机器学习系统的算法与向量检索，致力于提升机器学习工作负载的效率，并探索可扩展的向量与多向量检索方法。</p>
         </div>
       </section>
 
@@ -132,16 +132,12 @@
         <h2 data-zh="研究方向">Research interests</h2>
         <div class="interest-grid">
           <article>
-            <h3 data-zh="机器学习系统">Machine Learning Systems</h3>
-            <p data-zh="面向现代机器学习工作负载的高效训练、推理与服务系统。">Efficient training, inference, and serving systems for modern machine learning workloads.</p>
+            <h3 data-zh="面向机器学习系统的算法">Algorithms for ML Systems</h3>
+            <p data-zh="通过算法设计提升机器学习系统中训练、推理与服务的效率。">Designing algorithms to improve the efficiency of training, inference, and serving in machine learning systems.</p>
           </article>
           <article>
-            <h3 data-zh="信息检索">Information Retrieval</h3>
-            <p data-zh="多向量检索、查询分解与检索增强生成。">Multi-vector retrieval, query decomposition, and retrieval-augmented generation.</p>
-          </article>
-          <article>
-            <h3 data-zh="云计算">Cloud Computing</h3>
-            <p data-zh="面向可扩展、高效且可靠云工作负载的实用系统设计。">Practical system design for scalable, efficient, and reliable cloud workloads.</p>
+            <h3 data-zh="向量检索">Vector Retrieval</h3>
+            <p data-zh="高效、可扩展的向量与多向量检索算法。">Efficient and scalable algorithms for vector and multi-vector retrieval.</p>
           </article>
         </div>
       </section>
@@ -230,7 +226,7 @@
   </div>
 
   <footer>
-    <p data-zh="© 2026 刘耀阳 · 最后更新于 2026 年 8 月">© 2026 Yaoyang Liu · Last updated August 2026</p>
+    <p data-zh="© 2026 刘耀阳 · 最后更新于 2026 年 9 月">© 2026 Yaoyang Liu · Last updated September 2026</p>
   </footer>
   <script>
     const toggle = document.querySelector("#language-toggle");
@@ -243,7 +239,6 @@
       document.querySelectorAll("[data-lang]").forEach(element => element.hidden = element.dataset.lang !== language);
       toggle.textContent = isChinese ? "EN" : "中文";
       toggle.setAttribute("aria-label", isChinese ? "Switch to English" : "切换到中文");
-      document.title = "Yaoyang Liu | ML Systems Researcher";
       try { localStorage.setItem("language", language); } catch {}
     }
 
